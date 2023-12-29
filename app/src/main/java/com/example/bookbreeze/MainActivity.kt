@@ -16,5 +16,6 @@ class MainActivity : AppCompatActivity() {
         binding.loginButton.setOnClickListener {
             Toast.makeText(this, "Login is successful", Toast.LENGTH_SHORT).show()
         }
+        binding.emailEditText.
     }
 }

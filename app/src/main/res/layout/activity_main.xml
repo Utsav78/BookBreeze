@@ -19,6 +19,7 @@
         />
 
     <EditText
+        android:id="@+id/email_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="example@email.com"
@@ -28,6 +29,7 @@
         android:inputType="textEmailAddress"
         />
     <EditText
+        android:id="@+id/password_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
