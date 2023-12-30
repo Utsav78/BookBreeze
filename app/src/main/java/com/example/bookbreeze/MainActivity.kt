@@ -14,8 +14,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         binding.loginButton.setOnClickListener {
-            Toast.makeText(this, "Login is successful", Toast.LENGTH_SHORT).show()
+            val email = binding.emailEditText.text
+            val password = binding.passwordEditText.text
+
+            if (email.isNotEmpty() && password.isNotEmpty()) {
+                Toast.makeText(this, "Login is successful", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "Field cannot be empty", Toast.LENGTH_SHORT).show()
+            }
         }
-        binding.emailEditText.
+
     }
 }
