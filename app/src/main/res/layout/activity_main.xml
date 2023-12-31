@@ -22,7 +22,7 @@
         android:id="@+id/email_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="example@email.com"
+        android:hint="@string/example_email_com"
         android:padding="8dp"
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"

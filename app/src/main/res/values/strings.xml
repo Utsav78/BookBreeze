@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BookBreeze</string>
+    <string name="example_email_com">example@email.com</string>
 </resources>
