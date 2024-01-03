@@ -1,5 +1,6 @@
 package com.example.bookbreeze
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
             if (email.isNotEmpty() && password.isNotEmpty()) {
                 Toast.makeText(this, "Login is successful", Toast.LENGTH_SHORT).show()
+
             } else {
                 Toast.makeText(this, "Field cannot be empty", Toast.LENGTH_SHORT).show()
             }
