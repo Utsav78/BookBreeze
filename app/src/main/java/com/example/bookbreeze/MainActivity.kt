@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
             if (email.isNotEmpty() && password.isNotEmpty()) {
                 Toast.makeText(this, "Login is successful", Toast.LENGTH_SHORT).show()
-
+                startActivity(Intent(this, DashboardActivity::class.java))
             } else {
                 Toast.makeText(this, "Field cannot be empty", Toast.LENGTH_SHORT).show()
             }
